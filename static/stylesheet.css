@@ -83,6 +83,7 @@ nav {
 main {
     position: relative;
     height: 100vh;
+    padding: 1em;
 }
 
 #overlay { 
@@ -99,6 +100,19 @@ h1 {
     font-weight: 700;
     color: #000;
 }
+
+#p3 {
+    font-family: 'Bad Script', cursive;
+}
+
+#p4 {
+    font-family: 'Bellota Text', cursive;
+}
+
+#p5 {
+    font-family: 'Jost', sans-serif;
+}
+
 
 @media (max-width:460px) {
     .navbar-brand {
