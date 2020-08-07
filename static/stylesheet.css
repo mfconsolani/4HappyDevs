@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'reislustnormal';
+    src: url('reislust-webfont.woff2') format('woff2'),
+         url('reislust-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'reislustnormal', cursive;
+}
+
+.navbar {
+    font-family: 'reislustnormal', cursive;
+    font-size: 40px;
+}
+
+nav a img {
+    width: 200px;
+    height: auto;
+    fill: linear-gradient(#e66465, #9198e5);
+}
+
+nav {
+    background-color: #000000;
+}
