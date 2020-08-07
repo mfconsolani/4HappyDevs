@@ -8,20 +8,103 @@
 }
 
 body {
+    position: relative;
     font-family: 'reislustnormal', cursive;
-}
-
-.navbar {
-    font-family: 'reislustnormal', cursive;
-    font-size: 40px;
-}
-
-nav a img {
-    width: 200px;
-    height: auto;
-    fill: linear-gradient(#e66465, #9198e5);
+    z-index: 2;
+    background-image: url("/static/Whangaehubndw.png");
 }
 
 nav {
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.9);
+    max-height: auto;
+    line-height: 1;
+}
+
+.navbar-brand {
+    font-family: 'reislustnormal', cursive;
+    font-size: 3.5em;
+    font-weight: 500;
+    padding: 0;
+    background: -webkit-linear-gradient(
+    -45deg,    
+    #12dd13, 
+    #7b16ff 
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand span{
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.navbar-brand span:nth-of-type(1), 
+.navbar-brand span:nth-of-type(2),
+.navbar-brand span:nth-of-type(7) {
+    font-size: 1.25em;
+}
+
+.navbar-brand span:nth-of-type(1):hover, 
+.navbar-brand span:nth-of-type(2):hover,
+.navbar-brand span:nth-of-type(7):hover {
+    font-size: 1.20em;
+}
+
+.navbar-brand span:nth-of-type(3):hover,
+.navbar-brand span:nth-of-type(4):hover,
+.navbar-brand span:nth-of-type(5):hover,
+.navbar-brand span:nth-of-type(6):hover,
+.navbar-brand span:nth-of-type(8):hover,
+.navbar-brand span:nth-of-type(9):hover,
+.navbar-brand span:nth-of-type(10):hover {
+    transition: 0.3s;
+    font-size: 1.1em;
+}
+
+
+.navbar li{
+    font-family: 'reislustnormal', cursive;
+    font-size: 30px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    border: 2px solid #7b16ffa0;
+    box-shadow: 1px 1px 10px 1px #7b16ffa0;
+}
+
+.navbar-toggler:active {
+    outline: none;
+    border: 2px solid #12dd13a0;
+    box-shadow: 1px 1px 10px 1px #12dd13a0;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+#overlay { 
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+}
+
+h1 {
+    font-weight: 700;
+    color: #000;
+}
+
+@media (max-width:460px) {
+    .navbar-brand {
+        font-size: 3em;
+    }
+    .navbar-brand span {
+        font-size: 1.2em;
+    }
 }
