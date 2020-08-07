@@ -20,6 +20,22 @@ nav {
     line-height: 1;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    transition: 0.3s;
+    background: -webkit-linear-gradient(
+        -45deg,    
+        #12dd13, 
+        #7b16ff 
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: translate(3px, 3px);
+}
+
 .navbar-brand {
     font-family: 'reislustnormal', cursive;
     font-size: 3.5em;
@@ -113,6 +129,21 @@ h1 {
     font-family: 'Jost', sans-serif;
 }
 
+@media (max-width:768px) {
+    .navbar-dark .navbar-nav .nav-link:hover {
+        transition: 0.3s;
+        /* font-weight: bold; */
+        color: #7b16ffa0;
+        background: -webkit-linear-gradient(
+        -45deg,    
+        #7b16ffa0,
+        #7b16ffa0 
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+    }
+}
 
 @media (max-width:460px) {
     .navbar-brand {
@@ -122,3 +153,4 @@ h1 {
         font-size: 1.2em;
     }
 }
+
