@@ -181,6 +181,15 @@ main {
         font-weight: 700;
     }
 
+#section-two #box-three h3 {
+    margin-top: 0.5em;
+    font-weight: 800;
+    font-family: 'Jost', cursive;
+    text-shadow: 3px 3px 5px #7b16ffc0;
+    color: #f0f0f0;
+    text-align: justify;
+}
+
 #section-two #box-three p, #section-two #box-three p, #box-three li {
     font-family: 'Bellota Text', cursive;
     color: #f0f0f0;
