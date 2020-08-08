@@ -9,7 +9,7 @@
 
 body {
     position: relative;
-    background-image: url("/static/Whangaehubndw.png");
+    background-image: url("/static/Whangaehubndwdif.png");
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -221,6 +221,10 @@ main {
         rgba(123, 22, 255,0.7)
         );
     }
+    #section-two h1 {
+        color:#000000;
+        text-shadow: 3px 3px 5px #ffffff;
+    }
 }
 
 @media (max-width:707px) {
@@ -233,6 +237,11 @@ main {
         );
 }
 
+@media (max-width:576px) {
+    #section-two #box-three p span {
+        text-shadow: 4px 4px 3px #000000;
+    } 
+}
 
 @media (max-width:460px) {
     .navbar-brand {
