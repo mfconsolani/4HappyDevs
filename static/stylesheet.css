@@ -31,9 +31,10 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     transition: 0.3s;
+    font-weight: bold;
     background: -webkit-linear-gradient(
         -45deg,    
-        #12dd13, 
+        #7b16ff, 
         #7b16ff 
         );
         -webkit-background-clip: text;
@@ -147,6 +148,7 @@ h1 {
     text-shadow: 3px 3px 5px #7b16ffc0;
     text-align: end;
 }
+
 
 #section-one #box-two h3 {
     margin-top: 0.5em;
