@@ -31,14 +31,8 @@ nav {
 .navbar-dark .navbar-nav .nav-link:hover {
     transition: 0.3s;
     font-weight: bold;
-    background: -webkit-linear-gradient(
-        -45deg,    
-        #7b16ff, 
-        #7b16ff 
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transform: translate(3px, 3px);
+    color: #7b16ff;
+    transform: translate(3px, 3px);
 }
 
 .navbar-brand {
@@ -46,7 +40,6 @@ nav {
     font-size: 3.5em;
     font-weight: 500;
     padding: 0;
-    color: #7b16ff;
     background: -webkit-linear-gradient(
     -45deg,    
     #7b16ff, 
@@ -98,8 +91,8 @@ nav {
 
 .navbar-toggler:active {
     outline: none;
-    border: 2px solid #12dd13a0;
-    box-shadow: 1px 1px 10px 1px #12dd13a0;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 10px 1px #fff;
 }
 
 main {
@@ -188,20 +181,16 @@ main {
         font-weight: 700;
     }
 
-
+#section-two #box-three p, #section-two #box-three p, #box-three li {
+    font-family: 'Bellota Text', cursive;
+    color: #f0f0f0;
+    }
 
 
 @media (max-width:768px) {
     .navbar-dark .navbar-nav .nav-link:hover {
         transition: 0.3s;
         color: #7b16ffa0;
-        background: -webkit-linear-gradient(
-        -45deg,    
-        #7b16ffa0,
-        #7b16ffa0 
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 }
 
