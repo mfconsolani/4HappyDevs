@@ -199,6 +199,15 @@ main {
     color: #f0f0f0;
     }
 
+#section-two #box-three p span {
+        color: #7b16ff;
+        font-size: 1.1em;
+    }
+
+#section-two #box-three p {
+    line-height: 2em;
+    }
+
 
 @media (max-width:768px) {
     .navbar-dark .navbar-nav .nav-link:hover {
