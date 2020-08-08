@@ -171,7 +171,7 @@ main {
 #section-two {
     background: linear-gradient(
     45deg,
-    rgba(0,0,0,0.9) 40vw,
+    rgba(0,0,0,0.9) 50vw,
     rgba(123, 22, 255,0.7) 10vw
     );
     border-top: 3px solid #fff;
@@ -181,7 +181,7 @@ main {
         font-family: 'Jost', cursive;
         color: #202020;
         text-shadow: 3px 3px 5px #e0e0e0;
-        text-align: end;
+        text-align: center;
         font-weight: 700;
     }
 
@@ -214,7 +214,25 @@ main {
         transition: 0.3s;
         color: #7b16ffa0;
     }
+    #section-two {
+        background: linear-gradient(
+        45deg,
+        rgba(0,0,0,0.9) 40vw,
+        rgba(123, 22, 255,0.7)
+        );
+    }
 }
+
+@media (max-width:707px) {
+    #section-two {
+        transition: 0.5s;
+        background: linear-gradient(
+        45deg,
+        rgba(0,0,0,0.9) 55vw,
+        rgba(123, 22, 255,0.7)
+        );
+}
+
 
 @media (max-width:460px) {
     .navbar-brand {
