@@ -54,6 +54,10 @@ nav {
     transition: 0.3s;
 }
 
+a.navbar-brand:-webkit-any-link:focus, ul li a.nav-link:-webkit-any-link:focus {
+    outline:none;
+}
+
 .navbar-brand span:nth-of-type(1), 
 .navbar-brand span:nth-of-type(2),
 .navbar-brand span:nth-of-type(7) {
