@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
 @font-face {
     font-family: 'reislustnormal';
     src: url('reislust-webfont.woff2') format('woff2'),
@@ -124,7 +127,6 @@ main {
 }
 
 #section-one #box-one p, #section-one #box-two p, #box-two li {
-    font-family: 'Bellota Text', cursive;
     color: #f0f0f0;
     }
 
@@ -174,19 +176,51 @@ main {
 
 #section-half-one .container {
     /* border: 3px solid #505050; */
-    border-radius: 10px;
-    /* background-color: #f0f0f060; */
-    /* box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3); */
+    border-radius: 20px;
+    background-color: #f0f0f060;
+    /* box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.3); */
     transition: 0.4s;
 }
 
 #section-half-one .container:hover {
     /* border: 2px solid #7b16ffc0; */
     background-color: #f0f0f000;
-    box-shadow: 2px 2px 6px 2px rgba(123, 22, 255,0.6);
+    /* box-shadow: 2px 2px 6px 2px rgba(123, 22, 255,0.6); */
     transition: 0.5s;
     /* transform: scale(1.2); */
 }
+
+#section-half-one figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#section-half-one figure img {
+    margin-top: 1em;
+    height: auto;
+    width: 20vh;
+    border-radius: 50%;
+    /* box-shadow: 1px 1px 15px 4px rgba(123, 22, 255,0.6); */
+    transition: 0.4s;
+}
+
+#section-half-one figure img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+#section-half-one p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+#section-half-one h5 {
+    font-family: 'Jost', cursive;
+    font-weight: 400;
+}
+
 
 #section-two {
     background: linear-gradient(
@@ -214,8 +248,7 @@ main {
     text-align: justify;
 }
 
-#section-two #box-three p, #section-two #box-three p, #box-three li {
-    font-family: 'Bellota Text', cursive;
+#section-two #box-three p {
     color: #f0f0f0;
     }
 
@@ -246,6 +279,8 @@ main {
         text-shadow: 3px 3px 5px #ffffff;
     }
 }
+
+
 
 @media (max-width:707px) {
     #section-two {
