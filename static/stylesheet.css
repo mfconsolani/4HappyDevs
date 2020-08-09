@@ -143,7 +143,6 @@ main {
     font-weight: 700;
 }
 
-
 #section-one #box-two h3 {
     margin-top: 0.5em;
     font-weight: 800;
@@ -220,6 +219,24 @@ main {
     font-family: 'Jost', cursive;
     font-weight: 400;
 }
+
+#section-half-one .container p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#section-half-one .container h5 {
+    text-align: center;
+}
+
+#section-half-one .container hr {
+    background-color: #7b16ff;
+    height: 0.2em;
+    border-radius: 10px;
+    margin-left: 2em ;
+    margin-right: 2em;
+}
+
 
 
 #section-two {
