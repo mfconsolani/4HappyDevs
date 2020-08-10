@@ -237,7 +237,9 @@ main {
     margin-right: 2em;
 }
 
-
+.badge-primary {
+    background-color: #7b16ffc8;
+}
 
 #section-two {
     background: linear-gradient(
@@ -292,7 +294,7 @@ main {
         );
     }
     #section-two h1 {
-        color:#000000;
+        color:#101010;
         text-shadow: 3px 3px 5px #ffffff;
     }
 }
