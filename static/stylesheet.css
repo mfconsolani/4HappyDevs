@@ -17,6 +17,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     padding-top: 5.1em;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -221,7 +222,7 @@ main {
     font-weight: 400;
 }
 
-#section-half-one .container p{
+#section-half-one .container p {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -282,6 +283,7 @@ main {
     }
 
 footer {
+    font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
