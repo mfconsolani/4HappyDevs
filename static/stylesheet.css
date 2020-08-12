@@ -384,6 +384,14 @@ footer p:nth-of-type(2n) {
     }
 }
 
+@media (max-width:334px) {
+    .navbar-brand {
+        font-size: 2.2em;
+    }
+    body {
+        padding-top: 3.5em;
+    }
+}
 @media (max-width:311px) {
     .navbar-brand {
         font-size: 2.5em;
