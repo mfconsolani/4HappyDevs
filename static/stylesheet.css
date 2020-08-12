@@ -347,8 +347,6 @@ footer p:nth-of-type(2n) {
     }
 }
 
-
-
 @media (max-width:707px) {
     #section-two {
         transition: 0.5s;
