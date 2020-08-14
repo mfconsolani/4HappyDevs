@@ -162,6 +162,15 @@ main {
     list-style: none;
 }
 
+#section-one #box-two ul li::before {
+    content: "\f058";
+    font-size: larger;
+    color: #7b16ff;
+    text-shadow: 1px 1px 1px #404040;
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+}
+
 #section-half-one {
     background-color: #fffffff0;
 }
