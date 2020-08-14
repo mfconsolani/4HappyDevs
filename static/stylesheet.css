@@ -177,13 +177,11 @@ main {
     position: relative;
     top: 0;
     margin-top: 100;
-}
+} */
 
 div.links {
-    position: absolute;
-    bottom: 0;
-    margin-top: 100;
-} */
+    vertical-align: bottom;
+}
 
 #section-half-one .container:hover {
     background-color: #f0f0f000;
