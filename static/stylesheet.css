@@ -243,9 +243,32 @@ main {
     padding: 0 10px 0 0;
 }
 
+.fa-github-square:before {
+    color: #7b16ff;
+    font-size: larger;
+    padding: 0 10px 0 0;
+}
+
 #section-half-one li {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+}
+
+#section-half-one li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#section-half-one li a:hover {
+    color: #7b16ff;
+    transition: 0.2s;
+}
+
+#section-half-one li a:focus:active {
+    color: #7b16ff;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #section-two {
