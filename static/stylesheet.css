@@ -170,7 +170,20 @@ main {
     border-radius: 20px;
     background-color: #f0f0f060;
     transition: 0.4s;
+    /* position: relative; */
 }
+
+/* div.sup-links {
+    position: relative;
+    top: 0;
+    margin-top: 100;
+}
+
+div.links {
+    position: absolute;
+    bottom: 0;
+    margin-top: 100;
+} */
 
 #section-half-one .container:hover {
     background-color: #f0f0f000;
@@ -189,7 +202,6 @@ main {
     height: auto;
     width: 20vh;
     border-radius: 50%;
-    /* box-shadow: 1px 1px 15px 4px rgba(123, 22, 255,0.6); */
     transition: 0.4s;
 }
 
@@ -198,10 +210,10 @@ main {
     transform: scale(1.1);
 }
 
-#section-half-one p {
+/* #section-half-one p {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-}
+} */
 
 #section-half-one h5 {
     font-family: 'Jost', cursive;
@@ -211,6 +223,8 @@ main {
 #section-half-one .container p {
     margin-left: 0.5em;
     margin-right: 0.5em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 #section-half-one .container h5 {
