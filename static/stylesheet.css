@@ -173,16 +173,6 @@ main {
     /* position: relative; */
 }
 
-/* div.sup-links {
-    position: relative;
-    top: 0;
-    margin-top: 100;
-} */
-
-div.links {
-    vertical-align: bottom;
-}
-
 #section-half-one .container:hover {
     background-color: #f0f0f000;
     transition: 0.5s;
@@ -240,7 +230,7 @@ div.links {
 #section-half-one .container .hr-second {
     background-color: #7b16ff;
     height: 0.1em;
-    border-radius: 10%;
+    border-radius: 30px;
     margin-left: 2em ;
     margin-right: 2em;
 }
