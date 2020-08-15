@@ -202,15 +202,15 @@ main {
     transition: 0.4s;
 }
 
+div figure #foto-nacho {
+    height: auto;
+    width: 115px;
+}
+
 #section-half-one figure img:hover {
     transition: 0.4s;
     transform: scale(1.1);
 }
-
-/* #section-half-one p {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-} */
 
 #section-half-one h5 {
     font-family: 'Jost', cursive;
@@ -230,7 +230,7 @@ main {
 
 #section-half-one .container hr {
     background-color: #7b16ff;
-    height: 0.2em;
+    height: 0.13em;
     border-radius: 10px;
     margin-left: 2em ;
     margin-right: 2em;
