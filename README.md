@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## 4 Happy Developers
 
-You can use the [editor on GitHub](https://github.com/mfconsolani/4HappyDevs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We are a self-motivated team of developers whom enjoy coding for learning purpose and fun purpose as well.
+We have our own projects that we work on and we are also open to hearing from you with challengin ideas.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+See you soon!
 
-### Markdown
+### Our landing page
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It was built by our members and it's still in progress of construction given that we have started working together a few months ago.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mfconsolani/4HappyDevs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
