@@ -7,7 +7,6 @@
          url('reislust-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -108,15 +107,6 @@ main {
     /* height: 100vh; */
     padding-bottom: 10vh;
 }
-
-/* #overlay { 
-    background: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
 
 #section-one {
     background: rgba(0,0,0,0.9);
