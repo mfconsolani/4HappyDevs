@@ -120,7 +120,7 @@ main {
 
 #section-one #box-one p, #section-one #box-two p, #box-two li {
     color: #f0f0f0;
-    }
+}
 
 #section-one p b {
     font-weight: 800;
@@ -169,7 +169,6 @@ main {
     border-radius: 20px;
     background-color: #f0f0f060;
     transition: 0.4s;
-    /* position: relative; */
 }
 
 #section-half-one .container:hover {
@@ -182,7 +181,6 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 
 #section-half-one figure img {
     margin-top: 1em;
