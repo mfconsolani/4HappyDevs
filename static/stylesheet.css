@@ -419,6 +419,7 @@ footer p:nth-of-type(2n) {
         padding-top: 3.5em;
     }
 }
+
 @media (max-width:311px) {
     .navbar-brand {
         font-size: 2.5em;
@@ -430,6 +431,4 @@ footer p:nth-of-type(2n) {
     body {
         padding-top: 3.9em;
     }
-
 }
-
