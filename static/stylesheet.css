@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
-
 @font-face {
     font-family: 'reislustnormal';
     src: url('reislust-webfont.woff2') format('woff2'),
@@ -18,7 +17,6 @@ body {
     padding-top: 5.1em;
     font-family: 'Rubik', sans-serif;
 }
-
 
 nav {
     background-color: rgba(0,0,0,0.9);
@@ -84,7 +82,6 @@ a.navbar-brand:-webkit-any-link:focus, ul li a.nav-link:-webkit-any-link:focus {
     font-size: 1.1em;
 }
 
-
 .navbar li{
     font-family: 'reislustnormal', cursive;
     font-size: 30px;
@@ -114,7 +111,6 @@ main {
 }
 
 #section-one #box-one {
-    /* background-color: rgba(0,0,0,0.9); */
     margin: 1em;
 }
 
